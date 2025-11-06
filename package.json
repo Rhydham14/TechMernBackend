@@ -1,0 +1,30 @@
+{
+  "name": "techmernbackend",
+  "version": "1.0.0",
+  "description": "Backend Nodejs with database",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rhydham14/TechMernBackend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rhydham14/TechMernBackend/issues"
+  },
+  "homepage": "https://github.com/Rhydham14/TechMernBackend#readme",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "mongodb": "^6.20.0",
+    "mongoose": "^8.19.2",
+    "nodemon": "^3.1.10"
+  },
+  "type": "module"
+}
